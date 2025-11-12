@@ -19,10 +19,6 @@ carros = [
 ]
 alugados = []
 
-print("===========================")
-print("Bem Vindo a nossa Locadora")
-print("===========================")
-
 
 def mostrar_lista_de_carros(lista_de_carros):
     for i, car in enumerate(lista_de_carros):
@@ -31,3 +27,27 @@ def mostrar_lista_de_carros(lista_de_carros):
 
 
 mostrar_lista_de_carros(carros)
+
+
+while True: 
+    os.system("cls")
+
+    print("==============================")
+    print("Bem Vindo a Locadora ByPriori") 
+    print("==============================")
+    print("Qual seus interesses")
+    print("==============================")
+    print("1 Ver tabela de carros e preços")
+    print("2 Alugar um carro")
+    print("3 Devolver um carro")
+    print("4 sair")
+
+    op = int(input())
+
+    os.system("cls")
+    if op == 1:
+        pass
+    elif op == 2:
+        pass 
+    elif op == 3:
+        pass 
